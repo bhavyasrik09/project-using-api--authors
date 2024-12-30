@@ -1,0 +1,110 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Container for center alignment */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .header {
+    text-align: center;
+    color: #0d00ff;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Search form styling */
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 60%;
+    margin-right: 10px;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4157ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #2d8df3;
+  }
+  
+  /* Back button */
+  .back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #32197e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .back-btn:hover {
+    background-color: #327bc3;
+  }
+  
+  /* Authors list */
+  .authors-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .author-item {
+    margin-bottom: 10px;
+  }
+  
+  .author-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .author-link:hover {
+    color: #6354e5;
+  }
+  
+  /* Works list */
+  .works-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .work-item {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-item:hover {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+  }
+  

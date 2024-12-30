@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Works by Author</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="header">Works by the Author</h1>
+
+    <!-- Back to authors list -->
+    <a href="/" class="back-btn">Back to Search</a>
+
+    <% if (works && works.length > 0) { %>
+      <h2>Books by <%= works[0].author_name %></h2>
+      <ul class="works-list">
+        <% works.forEach(function(work) { %>
+          <li class="work-item"><%= work.title %></li>
+        <% }); %>
+      </ul>
+    <% } else { %>
+      <p>No works found for this author.</p>
+    <% } %>
+  </div>
+</body>
+</html>
